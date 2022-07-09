@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mdb.min.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background: url("img/ddjj.jpg") no-repeat center center fixed;
+            /*兼容浏览器版本*/
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .btn{
+            background-color: blue;
+            border: center;
+            color: red;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+    </style>
+    <title>hallo</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="col text-center">
+            <h1 class="mt-5 fw-blod text-warning">欢迎来到中国传统文化网</h1>
+        </div>
+        <div class="col text-center">
+            <h2 class='mt-5 fw-blod text-info'>点击下方按钮进入</h2>
+        </div>
+        <div class="col text-center">
+            <button  id="btn" type="button" class="btn btn-primary fw-blod" onclick="enter()">进入</button>
+        </div>
+    </div>
+<script>
+    function enter(){
+        window.location.href = "../ctwh/index.html";
+    }
+</script>
+
+</body>
+
+</html>
